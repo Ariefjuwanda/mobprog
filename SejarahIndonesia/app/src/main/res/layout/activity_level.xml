@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bground"
+    tools:context=".level">
+
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="106dp"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonLevel1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/level1" />
+
+        <ImageButton
+            android:id="@+id/buttonLevel2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/level2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonLevel3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/level3" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/levelseg" />
+
+    </LinearLayout>
+
+</LinearLayout>
