@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bground"
+    tools:context=".MenuUtama">
+
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="106dp"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/logo"/>
+
+        <Button
+            android:id="@+id/buttonMain"
+            android:textSize="8pt"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="MAIN"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/butstyle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="58dp">
+        <ImageButton
+            android:id="@+id/buttonPengaturan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/butpengaturan"
+            android:background="@color/white"
+            android:gravity="bottom" />
+        <ImageButton
+            android:id="@+id/buttonPiala"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/butpiala"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:layout_marginLeft="45dp"/>
+        <ImageButton
+            android:id="@+id/buttonHelp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/buthelp"
+            android:background="@color/white"
+            android:gravity="bottom"
+            android:layout_marginLeft="45dp"/>
+</LinearLayout>
+
+</LinearLayout>
